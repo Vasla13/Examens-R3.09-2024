@@ -147,7 +147,6 @@ class ServerApp(QMainWindow):
         # Question 2 : Pour gérer plusieurs clients simultanément :
         #  Il faut créer un thread pour chaque client lors de sa connexion. Cela évite qu'un client bloque le serveur.
         #  Utiliser une liste (self.clients) pour stocker toutes les connexions actives.
-        #  Diffuser les messages à tous les clients connectés via une boucle sur cette liste.
 
     def close_server(self):
         self.stop_server()
